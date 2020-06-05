@@ -1,0 +1,54 @@
+h1 {
+	margin: 14px;
+	font-size: 80px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,0.2);
+	width: auto;
+}
+iframe {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.king-wrapper {
+	margin: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.my-row {
+	display: flex;
+	flex-direction: row;
+}
+.card-holder {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.card {
+	margin: 12px 0;
+	padding: 24px;
+	background-color: #fafafa;
+	border-radius: 2px;
+	width: 800px;
+	height: 160px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.card p {
+	font-size: 36px;
+	color: #010101;
+}
+/* spotify card */
+.card-spotify {
+	background-color: #1ED760;
+}
+.card-spotify p {
+	color: white;
+}
+.card-weather {
+	background-color: #1f567c;
+}
+.card-news {
+	padding: 2px;
+	width: 846px;
+	height: 160px;
+}
